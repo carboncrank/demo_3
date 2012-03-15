@@ -1,4 +1,6 @@
 Demo3::Application.routes.draw do
+  resources :microports
+
   resources :users
 
   # The priority is based upon order of creation:
